@@ -1,0 +1,14 @@
+The problem at hand is to design and develop a multi-threaded proxy server and client system to facilitate web content retrieval from arbitrary URLs and save the retrieved content as HTML pages. This project aims to address the following key challenges and requirements:
+
+1. Web Content Access: In an increasingly digital world, users often need to access and store web content from various online sources. The project seeks to create a solution that simplifies  this process.
+
+2. Concurrent Web Requests: Users frequently require multiple  web requests to be processed simultaneously, and therefore, the project must employ multi-threading to ensure efficient handling of concurrent requests.
+
+3. Web Content Storage: After retrieving web content, the project should automatically generate appropriate names for HTML files and store the content in an organized manner.
+
+4. Versatility: The system should be capable of accommodating a wide range of URLs and web content types, making it versatile and widely applicable.
+
+5. Concurrency and Threading: To provide an efficient solution, multi-threading should be employed for both the server and client components, ensuring that the system can handle multiple requests concurrently.
+
+6. Synchronization and Error Handling: The project must include synchronization mechanisms and robust error handling to prevent data corruption and ensure the system's reliability.
+
